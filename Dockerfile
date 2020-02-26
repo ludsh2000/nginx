@@ -6,6 +6,9 @@ ENV NGINX_VERSION 1.16.1
 ENV NJS_VERSION   0.3.8
 ENV PKG_RELEASE   1
 
+ENV PORT 80
+ENV HOST 0.0.0.0
+
 RUN set -x \
 # create nginx user/group first, to be consistent throughout docker variants
     && addgroup -g 101 -S nginx \
