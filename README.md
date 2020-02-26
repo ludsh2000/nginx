@@ -15,7 +15,7 @@ This repository contains **Dockerfile** of [Nginx](http://nginx.org/) for [Docke
 
 2. Download [automated build](https://registry.hub.docker.com/u/dockerfile/nginx/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull dockerfile/nginx`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/nginx" github.com/dockerfile/nginx`)
+  
 
 
 ### Usage
